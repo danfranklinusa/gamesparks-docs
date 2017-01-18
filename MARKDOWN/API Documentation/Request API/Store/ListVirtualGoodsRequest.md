@@ -81,11 +81,11 @@ w8StoreProductId | string | The Windows 8 productId of the item.
 
 ### BundledGood
 
-A collection of arbitrary data that can be added to a message via a Cloud Code script.
+One of possibly many Virtual Goods bundled with this Virtual Good.
 
 Parameter | Type | Description
 --------- | ---- | -----------
-qty | number | The number of items bundled
+qty | number | The quantity of this bundled good
 shortCode | string | The shortCode of the bundled good
 
 
