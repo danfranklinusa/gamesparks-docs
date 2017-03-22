@@ -41,7 +41,7 @@ The *Snapshots* panel works in a similar way to the *Snapshots* feature on the *
 On the *Screen Builder*, there are three tabs:
 * *Screens* - Create and configure Screens for your Dynamic Forms.
 * *Snippets* - Create and configure Snippets for your Screens.
-* *Charts* - Charts will not be covered here, instead you can find a separate tutorial on them [here](/Tutorials/Analytics, Segmentation and Game Management/Building Custom Analytics Dashboards.md).
+* *Charts* - Charts will not be covered here. Instead, you can find a separate tutorial on them [here](/Tutorials/Analytics, Segmentation and Game Management/Building Custom Analytics Dashboards.md).
 
 <q>**Note:** There are three default Screens available when you create a game: *Leaderboards*, *Players*, and *Script Log*. Default Snippets are also available to suppport these Screens.</q>
 
@@ -121,7 +121,7 @@ The *Snippet Builder* is divided into 4 quadrants:
 
 **1** - The top-left quadrant is for JavaScript or Cloud Code that provides the logic and behavior of the Dynamic Form. This quadrant is divided into two parts:
   * **1a** - The lower main *JavaScript* section is where you enter your JavaScript/Cloud Code.
-  * **1b** - Allows you to define the input data for your script. This is useful when developing and debugging your script if it uses input data to change it's behaviour. The data set in this section is available through your script using *Spark.getData().scriptData*. See [example](#Debugging Scripts for Input Data) below.
+  * **1b** - Allows you to define the input data for your script. This is useful when developing and debugging your script if it uses input data to change its behaviour. The data set in this section is available through your script using *Spark.getData().scriptData*. See [example](#Debugging Scripts for Input Data) below.
 
 
 **2** - The top-right quadrant is for adding HTML/GSML or Handlebars code that renders the view.
@@ -185,7 +185,7 @@ The Screen no longer contains any logic. It simply calls the Snippet using the *
 
 ### Master Snippets
 
-A Master Snippet is a Snippet that can hold multiple Snippets that both manipulate data and render forms. Typically, a Master Snippet is a collection of Snippets. It doesn't hold much logic of it's own, and merely serves as a container for other self-contained Snippets.
+A Master Snippet is a Snippet that can hold multiple Snippets that both manipulate data and render forms. Typically, a Master Snippet is a collection of Snippets. It doesn't hold much logic of its own, and merely serves as a container for other self-contained Snippets.
 
 ## Dynamic Forms Player Search
 
@@ -230,7 +230,7 @@ This Snippet will be solely responsible for displaying the *gs-query* and passin
 
 ```
 
-As seen above, the Snippet contains a form that will execute the *player_search_results* Snippet, and render it's output in the placeholder, *player_results*, which is also defined in our Screen. The Snippet also contains another Snippet executor for *user_query*. Running the Screen now would render the following output:  
+As seen above, the Snippet contains a form that will execute the *player_search_results* Snippet, and render its output in the placeholder, *player_results*, which is also defined in our Screen. The Snippet also contains another Snippet executor for *user_query*. Running the Screen now would render the following output:  
 
 ![](img/DynamicForms/7.png)
 
